@@ -565,7 +565,6 @@ class Occurrence(with_metaclass(ModelBase, *get_model_bases())):
             'hour': self.start.hour,
             'minute': self.start.minute,
             'second': self.start.second,
-            'description': self.description,
         })
 
     def get_cancel_url(self):
